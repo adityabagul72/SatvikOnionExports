@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onion Varieties</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .card:hover .overlay {
+            opacity: 1;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-poppins">
+
+      <!-- Navbar -->
+  <nav class="bg-white shadow-lg py-4 px-11 sticky top-0 z-50">
+    <div class="flex justify-between items-center">
+      <!-- Logo -->
+      <a href="http://localhost/satvik-trading-comp/index.html" class="text-3xl font-semibold text-orange-600 flex items-center">
+        <i class="ri-leaf-line text-orange-600 text-4xl mr-2"></i>
+        Satvik Trading Company
+      </a>
+
+      <!-- Hamburger Menu -->
+      <button id="menu-toggle" class="lg:hidden block text-gray-800">
+        <i class="ri-menu-line text-2xl"></i>
+      </button>
+
+      <!-- Desktop Menu -->
+      <ul id="menu" class="hidden lg:flex space-x-6 text-sm font-medium text-gray-800">
+        <li>
+          <a href="http://localhost/satvik-trading-comp/index.html" class="flex items-center hover:text-orange-500 transition">
+            <i class="ri-home-4-line mr-2"></i> Home
+          </a>
+        </li>
+        <li>
+          <a href="http://localhost/satvik-trading-comp/about.html" class="flex items-center hover:text-orange-500 transition">
+            <i class="ri-information-line mr-2"></i> About
+          </a>
+        </li>
+        <li>
+          <a href="http://localhost/satvik-trading-comp/gallery.html" class="flex items-center hover:text-orange-500 transition">
+            <i class="ri-gallery-line mr-2"></i> Gallery
+          </a>
+        </li>
+        <li>
+          <a href="http://localhost/satvik-trading-comp/contact.html" class="flex items-center hover:text-orange-500 transition">
+            <i class="ri-mail-line mr-2"></i> Contact-Us
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Mobile Menu -->
+    <ul id="mobile-menu" class="lg:hidden flex-col space-y-4 text-sm font-medium text-gray-800 hidden mt-4">
+      <li>
+        <a href="http://localhost/satvik-trading-comp/index.html" class="flex items-center hover:text-orange-500 transition">
+          <i class="ri-home-4-line mr-2"></i> Home
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost/satvik-trading-comp/about.html" class="flex items-center hover:text-orange-500 transition">
+          <i class="ri-information-line mr-2"></i> About
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost/satvik-trading-comp/gallery.html" class="flex items-center hover:text-orange-500 transition">
+          <i class="ri-gallery-line mr-2"></i> Gallery
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost/satvik-trading-comp/contact.html" class="flex items-center hover:text-orange-500 transition">
+          <i class="ri-mail-line mr-2"></i> Contact-Us
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+    <!-- Onion Varieties Section -->
+    <section id="onions" class="px-8 py-12">
+        <h2 class="text-4xl font-bold text-blue-500 mb-10 text-center">Onion Varieties</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Card Template -->
+            <div
+                class="card relative bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300">
+                <img src="https://imgs.search.brave.com/4e2q4ExRJvwNWbOrM3zgW9vF2hXfxtRq2CtD0OXq5OM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDFrYXFWdjhrQUwu/anBn"
+                    alt="Red Onion" class="w-full h-[260px]  object-cover">
+                <div class="p-6">
+                    <h3 class="text-lg font-semibold text-gray-800">Yellow Onion</h3>
+                </div>
+                <div
+                    class="overlay absolute inset-0 bg-blue-500 bg-opacity-75 flex items-center justify-center text-white text-center px-4 opacity-0 transform scale-100 transition-all duration-300">
+                    <div>
+                        <p><strong>Color:</strong>Yellow </p>
+                        <p><strong>Application:</strong> Salads, Garnishes</p>
+                        <p><strong>Origin:</strong> India</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat similar cards for other onion types -->
+            <div
+                class="card relative bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300">
+                <img src="https://produits.bienmanger.com/36700-0w0h0_Organic_Red_Onion_From_Italy.jpg" alt="Red Onion"
+                    class="w-full h-[260px]  object-cover">
+                <div class="p-6">
+                    <h3 class="text-lg font-semibold text-gray-800">Red Onion</h3>
+                </div>
+                <div
+                    class="overlay absolute inset-0 bg-blue-500 bg-opacity-75 flex items-center justify-center text-white text-center px-4 opacity-0 transform scale-100 transition-all duration-300">
+                    <div>
+                        <p><strong>Color:</strong>Red</p>
+                        <p><strong>Application:</strong> Salads, Garnishes</p>
+                        <p><strong>Origin:</strong> India</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="card relative bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300">
+                <img src="https://www.dvo.com/newsletter/weekly/2015/1-9-115/w_images/onion_yellow.jpg" alt="Red Onion"
+                    class="w-full h-[260px]  object-cover">
+                <div class="p-6">
+                    <h3 class="text-lg font-semibold text-gray-800">Sweet Onion</h3>
+                </div>
+                <div
+                    class="overlay absolute inset-0 bg-blue-500 bg-opacity-75 flex items-center justify-center text-white text-center px-4 opacity-0 transform scale-100 transition-all duration-300">
+                    <div>
+                        <p><strong>Color:</strong>White/yellow </p>
+                        <p><strong>Application:</strong> Salads,fast food, Garnishes</p>
+                        <p><strong>Origin:</strong> India</p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="card relative bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300">
+                <img src="https://img3.exportersindia.com/product_images/bc-full/dir_185/5521499/white-onions-1519655733-3678611.jpeg"
+                    alt="Red Onion" class="w-full h-[260px]  object-cover">
+                <div class="p-6">
+                    <h3 class="text-lg font-semibold text-gray-800">White Onion</h3>
+                </div>
+                <div
+                    class="overlay absolute inset-0 bg-blue-500 bg-opacity-75 flex items-center justify-center text-white text-center px-4 opacity-0 transform scale-100 transition-all duration-300">
+                    <div>
+                        <p><strong>Color:</strong> Deep Red</p>
+                        <p><strong>Application:</strong> Salads, Garnishes</p>
+                        <p><strong>Origin:</strong> India</p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="card relative bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300">
+                <img src="https://www.luluhypermarket.com/cdn-cgi/image/f=auto/medias/40381-01.jpg-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNDEyNjh8aW1hZ2UvanBlZ3xpbWFnZXMvaGM2L2hlYy85MTQ4NzQyNTk4Njg2LmpwZ3wzYjI3ZWYzNjk3Njg5NTFmYWUyN2U4YTQxYWFiMjZmM2Q5ZTJhY2VkMTkwYjg4ZGYzNjYxYzU3ODgxNWViMjY3"
+                    alt="Red Onion" class="w-full h-[260px]  object-cover">
+                <div class="p-6">
+                    <h3 class="text-lg font-semibold text-gray-800">Small Red Onions</h3>
+                </div>
+                <div
+                    class="overlay absolute inset-0 bg-blue-500 bg-opacity-75 flex items-center justify-center text-white text-center px-4 opacity-0 transform scale-100 transition-all duration-300">
+                    <div>
+                        <p><strong>Color:</strong> Deep Red</p>
+                        <p><strong>Application:</strong> Salads,fastfood, Garnishes</p>
+                        <p><strong>Origin:</strong> India</p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="card relative bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300">
+                <img src="https://th.bing.com/th/id/OIP.BbZqziJ2SlW41TYdmHrnMAHaHa?rs=1&pid=ImgDetMain" alt="Red Onion"
+                    class="w-full h-[260px]  object-cover">
+                <div class="p-6">
+                    <h3 class="text-lg font-semibold text-gray-800">Nashik Onions</h3>
+                </div>
+                <div
+                    class="overlay absolute inset-0 bg-blue-500 bg-opacity-75 flex items-center justify-center text-white text-center px-4 opacity-0 transform scale-100 transition-all duration-300">
+                    <div>
+                        <p><strong>Color:</strong> Red</p>
+                        <p><strong>Application:</strong> Salads, Garnishes</p>
+                        <p><strong>Origin:</strong> India</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more cards for Sweet Onion, White Onion, Yellow Onion, Small Onion -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8 px-11">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+          <!-- Company Info -->
+          <div>
+            <h2 class="text-2xl font-semibold mb-4">GreenCare AgroTech</h2>
+            <p class="text-sm leading-relaxed text-gray-300">
+              Green Care AgroTech was established in 2014, in Shrirampur. To enhance yield and promote sustainable production, we manufacture high-quality plant nutrition products for all types of crops.
+            </p>
+          </div>
+      
+          <!-- Products -->
+          <div>
+            <h3 class="text-xl font-semibold mb-4">Products</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-orange-500 text-sm transition">
+                  All Products
+                </a>
+              </li>
+            </ul>
+          </div>
+      
+          <!-- Useful Links -->
+          <div>
+            <h3 class="text-xl font-semibold mb-4">Useful Links</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-orange-500 text-sm transition">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-orange-500 text-sm transition">
+                  Company Profile
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-orange-500 text-sm transition">
+                  Downloads
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-orange-500 text-sm transition">
+                  Enquiry
+                </a>
+              </li>
+            </ul>
+          </div>
+      
+          <!-- Contact -->
+          <div>
+            <h3 class="text-xl font-semibold mb-4">Contact</h3>
+            <p class="text-sm text-gray-300">
+              Shrirampur, Ahilyanagar, Maharashtra, INDIA
+            </p>
+            <p class="text-sm text-gray-300 mt-2">
+              <a href="mailto:greencareagrotech@gmail.com" class="hover:text-orange-500 transition">
+                greencareagrotech@gmail.com
+              </a>
+            </p>
+            <p class="text-sm text-gray-300 mt-2">
+              <a href="tel:+919145565745" class="text-blue-500 hover:text-orange-500 transition">
+                +91 9145565745
+              </a>
+            </p>
+            <br>
+            <!-- Google Translate Widget -->
+            <div id="google_translate_element" class="lg:mt-4 md:mt-24 sm:mt-12 sm:mr-26 flex items-center hidden sm:flex">
+              <span class="text-sm text-gray-400 mr-20">Language:</span>
+            </div>
+          </div>
+        </div>
+      
+        <div class="border-t border-gray-700 mt-8 pt-4 text-center text-sm text-gray-400">
+          © 2024 GreenCare AgroTech. All rights reserved.
+        </div>
+      </footer>
+
+      <script type="text/javascript">
+        function initializeGoogleTranslateElement() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'en,ar,ms,si,bn,ne,th,my',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=initializeGoogleTranslateElement"></script>
+    
+    <!-- JavaScript for Navbar Toggle -->
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden'); // Toggle visibility of mobile menu
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+#google_translate_element {
+      line-height: 1;
+      height: 0.9rem; /* Reduced height */
+      display: flex;
+      /* align-items: center; */
+      justify-content: center;
+      /* padding: 0 8px; Slightly reduced padding */
+      transition: all 0.3s ease-in-out;
+    }
+  
+    /* Add a hover effect for a professional look */
+    #google_translate_element:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-color: #0073e6; /* Highlight border */
+    }
+  
+    /* Custom style for select options dropdown */
+    .goog-te-combo {
+      background-color: white;
+      color: #333;
+      font-size: 13px; /* Slightly smaller font size */
+      font-family: 'Arial', sans-serif;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 4px; /* Reduced padding for compactness */
+      width: 100%;
+    }
+  
+    .goog-te-combo:hover {
+      border-color: #0073e6;
+    }
+  
+    /* Hide default Google Translate branding */
+    .goog-logo-link {
+      display: none !important;
+    }
+  
+    .goog-te-banner-frame.skiptranslate {
+      display: none !important;
+    }
+  
+    body {
+      top: 0 !important;
+      font-family: 'Poppins', sans-serif;
+}
