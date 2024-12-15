@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost";
+$servername = "127.0.0.1:3307";  // Replace 3306 if a different port is used
 $username = "root";   // Use your DB username
 $password = "";       // Use your DB password
 $dbname = "satvik_trading";

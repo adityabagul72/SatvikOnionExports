@@ -10,8 +10,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Insert message into database
     $sql = "INSERT INTO messages (name, email, phone, message) VALUES ('$name', '$email', '$phone', '$message')";
     
-    if ($conn->query($sql) === TRUE) {
-        echo "Message sent successfully!";
+    if ($conn->query($sql) === TRUE){
+        header("Location: ../contact.html"); 
+        exit();
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
