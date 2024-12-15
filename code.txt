@@ -1,2 +1,0 @@
-demo.html
-is a demo testing page for form submission after proper setup use this page as contact.html
